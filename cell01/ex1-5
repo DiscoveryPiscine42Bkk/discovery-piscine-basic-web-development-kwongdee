@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .div1 {
+            width: 1800px;
+            height: 400px;
+            background-color: lightgreen;
+        }
+        .div2 {
+            width: 1800px;
+            height: 400px;
+            background-color: lightcoral;
+        }
+        
+        .box {
+            display: flex;
+            border: 10px black;
+            justify-content: center;
+        }
+        
+        h2 {
+            font-style: initial;
+            font-size: medium;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Make a web page with a table of two boxes like:</h2>
+    <hr>
+    <div class="box">
+        <div class="div1">
+            first cell
+        </div>
+        <div class="div2">
+            second cell
+        </div>
+    </div>
+    
+</body>
+</html>

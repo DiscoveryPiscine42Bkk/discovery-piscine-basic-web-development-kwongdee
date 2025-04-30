@@ -1,0 +1,40 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-size: 50px;
+}
+.first{
+    background-image: url(https://i.pinimg.com/564x/7a/e1/88/7ae188802ae2c4ffc6d9f86f0db2c336.jpg);
+    height: 100vh;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50vh
+}
+h1{
+    color: white;
+}
+.second{
+    background-color: black;
+    height: 40vh;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30vh;
+}
+.third{
+    background-image: url(https://cdn-useast1.kapwing.com/static/templates/crying-cat-meme-template-full-719a53dc.webp);
+    height: 100vh;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50vh;
+}

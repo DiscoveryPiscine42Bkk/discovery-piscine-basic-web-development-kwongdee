@@ -1,0 +1,28 @@
+.h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#food {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.food img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+

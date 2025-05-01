@@ -1,0 +1,20 @@
+button {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(192, 192, 255);
+    width: 150px;
+    height: 70px;
+    
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+    
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rush</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cal Sans', sans-serif;
+    }
+
+    body {
+      background-color: #afc5b2;
+      height: 400vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 2.3vh;
+      background-color: rgba(150, 182, 141, 0.2);
+      backdrop-filter: blur(5px);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .navbar {
+      width: 100%;
+      font-size: 2em;
+      color: white;
+      font-weight: 500;
+      font-family: 'Cal Sans';
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .navbar a:hover {
+      color: #72ff4f;
+    }
+
+    #home {
+      background: url('https://files.catbox.moe/3nt5e7.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bt button {
+        color: #ffffff;
+        background-color: #48a476;
+        width: 100px;
+        height: 60px;
+        border-radius: 20px;
+        font-family: Cal Sans;
+        font-size: 1em;
+    }
+
+    .title p {
+      font-family: 'Cal Sans';
+      font-size: 7em;
+      color: #fff;
+      text-align: center;
+    }
+
+    #about {
+      padding-top: 15vh;
+      text-align: center;
+    }
+
+    .h1 {
+      font-size: 7em;
+      font-family: 'Cal Sans';
+      margin: 0;
+      padding-bottom: 60px;
+      color: #2d432d;
+        
+    }
+
+    .id-card {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #ffffff;
+      width: 900px;
+      height: 450px;
+      margin: 5vh auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      gap: 45px;
+    }
+
+    .img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid #48a476;
+    }
+
+    .details {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      text-align: left;
+    }
+
+    .details h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .details p {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+/* CV */
+
+#CV {
+    text-align: center;
+}
+
+.skillcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.skillcard {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 400px;
+    background-color: white;
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace
+    
+}
+
+.h1 {
+    text-align: center;
+}
+
+.box {
+    width: 500px;
+    height: fit-content;   
+}
+
+.imgsk {
+    width: 370px;
+    height: 500px;
+    border: 8px solid rgb(132, 177, 114);
+    box-shadow:4px #72ff4f;
+    border-radius: 20px;
+}
+
+.imgcon {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.info {
+    color: gray;
+    font-size: 18;
+}
+
+
+  </style>
+</head>
+<body> 
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home">home</a> 
+      <a href="#about">About</a> 
+      <a href="#CV">Skills</a> 
+      <a href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <div id="home">
+    <div class="title">
+      <p>Hi! Wanna know me yet?</p>
+      <div class="bt" style="padding-left: 540px; gap: 40px;">
+      <a href="#about"><button>Pie</button></a>
+      <a href="#about"><button>Aun</button></a>
+    </div>
+    </div>
+  </div>
+
+  <!-- About -->
+
+  <div id="about">
+    <h1 class="h1">About</h1>
+
+    <hr style="border-color: #48a476; width: 100vh; size: 8px;">
+  </div>
+
+  <div class="id-card">
+    <div class="photo">
+      <img class="img" style="margin: 50px; " src="https://cdn.discordapp.com/attachments/1063742818268483625/1367675971511255140/FB_IMG_1746149676301.jpg?ex=68157301&is=68142181&hm=7137b16cc4a7db2801ac6681f2fd37fd972363d1b0c84aca6682440e1266a46a&" alt="doggo">
+    </div>
+    <div class="details" style="font-family: Cal Sans; display: flex; justify-content: space-evenly; flex-direction: column;">
+      <h2 style="font-size: 4vh;">Kamin Wongdee</h2>
+      <p><strong>Nickname:</strong> Pie</p>
+      <p><strong>Birthday:</strong> 4 Mar 2006</p>
+      <p><strong>Age:</strong> 19</p>
+      <p><strong>Career:</strong> Industrial Engineering</p>
+      <p><strong>Favorite Food:</strong> Kraphao</p>
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <!-- Skills -->
+    <div id="CV"></div>
+    <h1 class="h1" style="text-align: center; margin-top: 200px;">Skills</h1>
+    <hr style="border-color: #48a476; width: 100vh; size: 8px;">
+
+
+
+  <div class="skillcon">
+
+    <div class="skillcard">
+            <img class="imgsk" src="https://cdn.discordapp.com/attachments/1063742818268483625/1367676682319822879/20250421_205924.jpg?ex=681573ab&is=6814222b&hm=d5726c1ec34c23c9fd83e84efa2a2f944f329692ea345b87f065dd285d66081a&" alt="that ma picture, sir">
+            <box class="box"></box>
+        <h2>CODING</h2>
+        <p class="info">I Got B on C+</p>
+            </div>
+
+            <div class="skillcard">
+                <img class="imgsk" src="https://cdn.discordapp.com/attachments/1063742818268483625/1367676527378038814/1746012892003.jpg?ex=68157386&is=68142206&hm=d251996c90c043773a0dd50e889a0220f36dfcf11d05de3d93a2606acf627e71&" alt="that ma picture, sir">
+                <box class="box"></box>
+            <h2>ART</h2>
+                <p class="info">I Make Money from that</p>
+            </div>
+
+                <div class="skillcard">
+                    <img class="imgsk" src="https://cdn.discordapp.com/attachments/1063742818268483625/1367677362333941770/Screenshot_20250502_084121_Gallery.png?ex=6815744d&is=681422cd&hm=d8a244d9cb4ffc3ea326ed4e15a98d84e270d1555fa2e59685b09d45f180faf6&" alt="that ma picture, sir">
+                    <box class="box"></box>
+                <h2>MUSIC</h2>
+                <p class="info">I can play Saxophone</p>
+    </div>
+</div>
+
+<!-- contract -->
+
+<div id="Contact"></div>
+    <h1 class="h1" style="text-align: center; margin-top: 200px;">Contract</h1>
+    <hr style="border-color: #48a476; width: 100vh; size: 8px;">
+
+
+
+  <div class="skillcon">
+
+    <div class="skillcard">
+            <a href="https://www.facebook.com/pie.paloh.2024/"><img class="imgcon" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="that ma picture, sir"></a>
+       
+        <h2>Facebook</h2>
+        <p class="info">That my Serious platfprm</p>
+            </div>
+
+            <div class="skillcard">
+                <a href="https://www.instagram.com/qyuty_pi?igsh=MXQ1ZHRiOWp2OWI1dw==
+                "><img class="imgcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="that ma picture, sir"></a>
+              
+            <h2>Instargram</h2>
+                <p class="info"></p>
+            </div>
+
+                <div class="skillcard">
+                    <a href="https://x.com/oven314?t=piKCJc0e0t6lw_F4O7C3RQ&s=09
+                    "><img class="imgcon" src="https://static.vecteezy.com/system/resources/thumbnails/027/395/710/small_2x/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" alt="that ma picture, sir"></a>
+                   
+                <h2>(X)twitter</h2>
+                <p class="info">what is this??</p>
+    </div>
+</div>
+
+</body>
+</html>
